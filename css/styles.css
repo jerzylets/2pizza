@@ -3,7 +3,7 @@
 .header {
   position: relative;
   flex-direction: column;
-  padding: 3rem 4rem;
+  padding: 3rem 4rem 2rem;
   background-color: var(--black);
 }
 
@@ -65,7 +65,8 @@
   left: -8px;
   width: 15px;
   height: 15px;
-  padding-top: 2px;
+  padding-top: 3px;
+  padding-right: 1px;
   text-align: center;
   background-color: var(--orange);
   border-radius: 50%;
@@ -81,11 +82,28 @@
   text-transform: uppercase;
 }
 
+/* Menu */
+
+.menu {
+  padding: 2rem;
+  padding-top: 2.8rem; /* компенсация треугольников у хедера */
+  background-color: var(--orange);
+}
+
+.menu__list {
+  justify-content: center;
+}
+
+.menu__link {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
 /* Pizza */
 
 .pizza {
   padding: 3rem;
-  padding-top: 3.8rem; /* компенсация треугольников у хедера */
   background-image: url("../img/wood.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,12 +122,13 @@
   top: 45%;
   left: 43%;
   z-index: 10;
-  width: 55px;
-  height: 30px;
-  font-size: 1.2rem;
+  width: 60px;
+  height: 40px;
+  font-size: 1.4rem;
   font-weight: 700;
   border-radius: 50%;
   background-color: var(--orange);
+  box-shadow: 0 0 2px 2px var(--grey);
 }
 
 .circle-menu__list {
