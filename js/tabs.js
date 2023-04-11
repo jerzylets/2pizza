@@ -12,7 +12,7 @@ tabsBtn.forEach(function (element) {
     tabsItem.forEach(function (element) { element.classList.remove('tabs__item--active') });
     document.querySelector(`[data-point="${path}"]`).classList.add('tabs__item--active');
 
-    // tabsMap.forEach(function (element) { element.classList.remove('tabs__map--active') });
-    // document.querySelector(`[data-target="${path}"]`).classList.add('tabs__map--active');
+    tabsMap.forEach(function (element) { element.classList.remove('tabs__map--active') });
+    document.querySelector(`[data-target="${path}"]`).classList.add('tabs__map--active');
   });
 });

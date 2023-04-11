@@ -136,3 +136,11 @@ circle {
 .tabs__item--active {
   display: block;
 }
+
+.tabs__map {
+  display: none;
+}
+
+.tabs__map--active {
+  display: block;
+}

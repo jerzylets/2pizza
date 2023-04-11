@@ -274,67 +274,81 @@
         </nav>
         <div class="tabs__content flex">
           <div class="map-wrapper locations__wrapper">
-            <div class="api-maps tabs__map tabs__map--active" data-target="one" id="map"
-              style="width: 400px; height: 300px">
-            </div>
-            <!-- <div class="api-maps" data-target="two" style="width: 400px; height: 300px"></div>
-            <div class="api-maps" data-target="three" style="width: 400px; height: 300px"></div>
-            <div class="api-maps" data-target="four" style="width: 400px; height: 300px"></div> -->
+            <iframe class="map tabs__map tabs__map--active"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d827.9396193387191!2d-118.23353647158844!3d33.89587359568463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cb1279d9f4b7%3A0xc1f052a16b38500a!2s537%20W%20Compton%20Blvd%2C%20Compton%2C%20CA%2090220%2C%20USA!5e0!3m2!1sen!2sru!4v1681177781872!5m2!1sen!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" data-target="one"></iframe>
+            <iframe class="map tabs__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d663.2481612979552!2d-122.43032066109194!3d37.74413588388155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e693731927b%3A0x10b123d2b47bcccb!2s1582%20Sanchez%20St%2C%20San%20Francisco%2C%20CA%2094131%2C%20USA!5e0!3m2!1sen!2sru!4v1681178472119!5m2!1sen!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" data-target="two"></iframe>
+            <iframe class="map tabs__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d655.744145648711!2d-121.4772790259013!3d38.573804483525194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad0c3a86f3cdd%3A0xdc40459caa50b876!2s1116%2023rd%20St%2C%20Sacramento%2C%20CA%2095816%2C%20USA!5e0!3m2!1sen!2sru!4v1681179657867!5m2!1sen!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" data-target="three"></iframe>
+            <iframe class="map tabs__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.430022387463!2d-117.10626011821786!3d32.7495554913092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95441b706f833%3A0x58798e87fed1f7b8!2s4120%20University%20Ave%2C%20San%20Diego%2C%20CA%2092105%2C%20USA!5e0!3m2!1sen!2sru!4v1681180984262!5m2!1sen!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" data-target="four"></iframe>
           </div>
           <div class="adress-wrapper locations__wrapper">
             <address class="locations-adress tabs__item tabs__item--active flex" data-point="one">
               <div class="locations-adress__street">
-                3631 Crenshaw Blvd
+                537 W Compton Blvd, Compton
               </div>
               <div class="locations-adress__locality">
-                Los Angeles, CA 90016
+                Los Angeles, CA 90220
               </div>
               <a href="tel:333-555-7777" class="locations-adress__tel">
                 333-555-7777
               </a>
-              <a class="locations-adress__link" href="#">
+              <a class="locations-adress__link"
+                href="https://www.google.com/maps/dir/Current+Location/33.89608145046652, -118.23290416914463">
                 Direction
               </a>
             </address>
             <address class="locations-adress tabs__item flex" data-point="two">
               <div class="locations-adress__street">
-                3631 Crenshaw Blvd
+                1582 Sanchez St
               </div>
               <div class="locations-adress__locality">
-                San-Francisco, CA 90016
+                San Francisco, CA 94131
               </div>
               <a href="tel:333-555-7777" class="locations-adress__tel">
                 333-555-7777
               </a>
-              <a class="locations-adress__link" href="#">
+              <a class="locations-adress__link"
+                href="https://www.google.com/maps/dir/Current+Location/37.74383985423303, -122.42918423993582">
                 Direction
               </a>
             </address>
             <address class="locations-adress tabs__item flex" data-point="three">
               <div class="locations-adress__street">
-                3631 Crenshaw Blvd
+                1116 23rd St
               </div>
               <div class="locations-adress__locality">
-                Sacramento, CA 90016
+                Sacramento, CA 95816
               </div>
               <a href="tel:333-555-7777" class="locations-adress__tel">
                 333-555-7777
               </a>
-              <a class="locations-adress__link" href="#">
+              <a class="locations-adress__link"
+                href="https://www.google.com/maps/dir/Current+Location/38.573985, -121.476953">
                 Direction
               </a>
             </address>
             <address class="locations-adress tabs__item flex" data-point="four">
               <div class="locations-adress__street">
-                3631 Crenshaw Blvd
+                4120 University Ave
               </div>
               <div class="locations-adress__locality">
-                San-Diego, CA 90016
+                San-Diego, CA 92105
               </div>
               <a href="tel:333-555-7777" class="locations-adress__tel">
                 333-555-7777
               </a>
-              <a class="locations-adress__link" href="#">
+              <a class="locations-adress__link"
+                href="https://www.google.com/maps/dir/Current+Location/32.74986658880059, -117.10646987598646">
                 Direction
               </a>
             </address>
