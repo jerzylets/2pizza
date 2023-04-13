@@ -41,7 +41,8 @@
 }
 
 .header__logo {
-  padding-right: 123px; /* выставляет логотип посередине */
+  padding-right: 123px;
+  /* выставляет логотип посередине */
 }
 
 .header__cart-link {
@@ -86,7 +87,8 @@
 
 .menu {
   padding: 2rem;
-  padding-top: 2.8rem; /* компенсация треугольников у хедера */
+  padding-top: 2.8rem;
+  /* компенсация треугольников у хедера */
   background-color: var(--orange);
 }
 
@@ -145,7 +147,7 @@
 .circle-menu__item {
   position: absolute;
   top: -10px;
-  left: -10px; 
+  left: -10px;
   width: 160px;
   height: 160px;
   transform-origin: 100% 100%;
@@ -177,21 +179,62 @@
   transform: rotate(300deg) skew(30deg);
 }
 
+.pizza__wrapper {
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.pizza-article {
+  flex-direction: column;
+}
+
 /* Advantages */
 
 .advantages {
   padding: 3rem;
   color: var(--black);
   background-color: #64400F;
-  background-image: 
+  background-image:
     linear-gradient(rgba(218, 165, 32, 0.85) 0, rgba(218, 165, 32, 0.85) 100%),
     url("../img/pizza-background.jpg");
+}
+
+.advantages__container {
+  justify-content: space-evenly;
+}
+
+.advantages-block {
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  max-width: 12%;
 }
 
 /* Location */
 
 .locations {
   padding: 3rem;
+}
+
+.locations__list {
+  gap: 30px;
+}
+
+.tabs__item {
+  display: none;
+}
+
+.tabs__item--active {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__map {
+  display: none;
+}
+
+.tabs__map--active {
+  display: block;
 }
 
 /* Tasty pictures */
@@ -235,4 +278,3 @@
   padding: 3rem;
   background-color: var(--black);
 }
-
