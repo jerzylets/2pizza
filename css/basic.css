@@ -123,24 +123,10 @@ circle {
 
 .flex {
   display: flex;
+  gap: 5px;
 }
 
 .grid {
   display: grid;
-}
-
-.tabs__item {
-  display: none;
-}
-
-.tabs__item--active {
-  display: block;
-}
-
-.tabs__map {
-  display: none;
-}
-
-.tabs__map--active {
-  display: block;
+  gap: 30px;
 }

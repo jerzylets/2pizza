@@ -21,14 +21,14 @@
   А меню будет? -->
   <header class="header flex">
     <div class="header__container flex">
-      <a class="header__link header__phone-link" href="tel:+74953225448" aria-label="+74953225448">
-        +7 495 322 54 48
+      <a class="header__link header__phone-link" href="tel:333-555-7777" aria-label="+333-555-7777">
+        333-555-7777
       </a>
       <a class="header__link header__logo-link" href="#" aria-label="Homepage">
         <img src="#" alt="2pizza" class="header__logo">
       </a>
       <a class="header__link header__cart-link" href="#" aria-label="Shopping cart">
-        <span class="header__cart-link--sum">1033 ₽</span>
+        <span class="header__cart-link--sum">5 $</span>
         <span class="header__cart-link--counter">3</span>
       </a>
     </div>
@@ -103,7 +103,23 @@
             </li>
           </ul>
         </nav>
-        <div class="pizza__wrapper">
+        <div class="pizza__wrapper grid">
+          <article class="pizza__aricle pizza-article flex">
+            <h3 class="pizza-article__title">Pizza title</h3>
+            <p class="pizza-article__description">Pizza decription</p>
+            <div class="pizza-article__value">
+              <span class="pizza-article__size-letter">S</span>
+              <span class="pizza-article__size">inches</span>
+              <span class="pizza-article__price">price $</span>
+              <button class="pizza-article__btn btn-reset" aria-label="add to cart">+</button>
+            </div>
+            <div class="pizza-article__value">
+              <span class="pizza-article__size-letter">L</span>
+              <span class="pizza-article__size">inches</span>
+              <span class="pizza-article__price">price $</span>
+              <button class="pizza-article__btn btn-reset" aria-label="add to cart">+</button>
+            </div>
+          </article>
           <article class="pizza__aricle pizza-article flex">
             <h3 class="pizza-article__title">Pizza title</h3>
             <p class="pizza-article__description">Pizza decription</p>
@@ -221,7 +237,7 @@
     </section>
     <!-- advantages -->
     <section class="section advantages" id="advantages">
-      <div class="container advantages__container">
+      <div class="container advantages__container flex">
         <h2 class="advantages__title visually-hidden">
           Advantages
         </h2>
@@ -406,8 +422,10 @@
       <!-- </div> -->
     </section>
     <section class="section delivery" id="delivery">
-    <h2 class="delivery__title">Delivery terms</h2>
-    <p class="delivery__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at nulla consequatur provident! Minus perspiciatis placeat natus delectus quam sequi, ab commodi minima tempora veniam ut provident! Vitae, tempora cum?</p>
+      <h2 class="delivery__title">Delivery terms</h2>
+      <p class="delivery__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at nulla consequatur
+        provident! Minus perspiciatis placeat natus delectus quam sequi, ab commodi minima tempora veniam ut provident!
+        Vitae, tempora cum?</p>
     </section>
   </main>
   <!-- Подвал -->
@@ -416,7 +434,7 @@
     <a class="footer__link footer__logo--link" href="#" aria-label="Homepage">
       <img src="#" alt="2pizza" class="logo footer__logo">
     </a>
-    <nav class="nav footer__nav">
+    <nav class="nav footer__nav flex">
       <ul class="footer__nav--list list-reset flex" aria-label="Menu">
         <li class="footer__nav--item">
           <a class="footer__nav--link" href="#" aria-label="Terms of delivery">
