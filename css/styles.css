@@ -96,7 +96,7 @@
 
 .menu__link {
   padding: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--black);
 }
 
@@ -111,19 +111,19 @@
 
 .circle-menu {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 36rem;
+  height: 36rem;
   margin: 0 auto;
   background-color: transparent;
 }
 
 .circle-menu__btn {
   position: absolute;
-  top: 45%;
-  left: 43%;
+  top: 44%;
+  left: 42%;
   z-index: 10;
-  width: 60px;
-  height: 40px;
+  width: 6rem;
+  height: 4rem;
   font-size: 1.4rem;
   font-weight: 700;
   border-radius: 50%;
@@ -133,9 +133,9 @@
 
 .circle-menu__list {
   position: absolute;
-  width: 300px;
-  height: 300px;
-  margin: 50px;
+  width: 30rem;
+  height: 30rem;
+  margin: 3rem;
   padding: 0;
   list-style: none;
   border-radius: 50%;
