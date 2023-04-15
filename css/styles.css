@@ -105,7 +105,7 @@
 /* Pizza */
 
 .pizza {
-  padding: 3rem;
+  padding: 4rem;
   background-image: url("../img/wood.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,6 +188,29 @@
   flex-direction: column;
 }
 
+.pizza-article__title {
+  font-size: 1.8rem;
+}
+
+.pizza-article__description {
+  padding: 0 3rem;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+.pizza-article__value {
+  font-family: Tahoma, sans-serif;
+  font-size: 1.4rem;
+}
+
+.pizza-article__btn {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+
 /* Advantages */
 
 .advantages {
@@ -207,7 +230,33 @@
   flex-direction: column;
   text-align: center;
   gap: 5px;
-  max-width: 12%;
+  max-width: 20%;
+}
+
+.advantages-block__heading {
+  padding-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.advantages-block__text {
+  font-size: 1.6rem;
+}
+
+/* Delivery */
+
+.delivery {
+  padding: 3rem;
+  background-color: var(--black);
+  color: var(--white)
+}
+
+.delivery__title {
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.delivery__text {
+  font-size: 1.4rem;
 }
 
 /* Location */
@@ -216,8 +265,25 @@
   padding: 3rem;
 }
 
+.locations__title {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
 .locations__list {
   gap: 30px;
+}
+
+.tabs__btn {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+.tabs__btn--active {
+  border: 1px solid var(--white);
+  border-radius: 0.2rem;
 }
 
 .tabs__item {
@@ -227,6 +293,8 @@
 .tabs__item--active {
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
+  font-size: 1.4rem;
 }
 
 .tabs__map {
@@ -235,18 +303,20 @@
 
 .tabs__map--active {
   display: block;
+  width: 80vw;
 }
 
 /* Tasty pictures */
 
 .tasty {
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .tasty__img {
   display: block;
   height: 150px;
   width: auto;
+  overflow: hidden;
 }
 
 .tasty__img--additional {
