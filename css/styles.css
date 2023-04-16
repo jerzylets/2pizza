@@ -30,7 +30,7 @@
   line-height: 2.4rem;
 }
 
-.header__phone-link::before {
+/* .header__phone-link::before {
   position: absolute;
   top: 30px;
   left: 40px;
@@ -38,7 +38,7 @@
   height: 24px;
   background-image: url("../img/icon-phone.png");
   content: "";
-}
+} */
 
 .header__logo {
   padding-right: 123px;
