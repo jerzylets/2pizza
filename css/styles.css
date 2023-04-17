@@ -30,6 +30,17 @@
   line-height: 2.4rem;
 }
 
+
+.header__phone-image {
+  /* fill: #fff; */
+  stroke: #fff;
+}
+
+/* .header__phone-image path {
+  fill: #fff;
+  stroke: #fff;
+} */
+
 /* .header__phone-link::before {
   position: absolute;
   top: 30px;
