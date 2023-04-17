@@ -30,6 +30,11 @@
   line-height: 2.4rem;
 }
 
+.svg {
+  fill: #fff;
+  stroke: #fff;
+}
+
 /* .header__phone-link::before {
   position: absolute;
   top: 30px;
@@ -54,7 +59,7 @@
 
 .header__cart-link--sum {
   position: absolute;
-  left: -200%;
+  left: -150%;
   width: 40px;
   height: 15px;
   padding-top: 5px;
@@ -189,6 +194,7 @@
 }
 
 .pizza-article__title {
+  padding-bottom: 1rem;
   font-size: 1.8rem;
 }
 
@@ -263,6 +269,7 @@
 
 .locations {
   padding: 3rem;
+  background: linear-gradient(var(--black), var(--grey), var(--black));
 }
 
 .locations__title {
@@ -310,6 +317,7 @@
 
 .tasty {
   justify-content: center;
+  background-color: var(--black);
 }
 
 .tasty__img {
