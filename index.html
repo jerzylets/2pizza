@@ -13,7 +13,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-  <base target="_blank">
 </head>
 
 <body class="body">
@@ -21,17 +20,19 @@
   А меню будет? -->
   <header class="header flex">
     <div class="header__container flex">
-      <a class="header__link header__phone-link" href="tel:333-555-7777" aria-label="+333-555-7777">
-        <svg class="header__phone-image" aria-hidden="true" focusable="false" width="24" height="24"
-          viewBox="0 0 24 24">
+      <a class="header__link header__phone-link flex" href="tel:333-555-7777" aria-label="+333-555-7777">
+        <svg class="header__phone-image" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24">
           <use xlink:href="img/sprite.svg#phone-icon"></use>
         </svg>
-        333-555-7777
+        <p class="header__phone-number">333-555-7777</p>
       </a>
       <a class="header__link header__logo-link" href="#" aria-label="Homepage">
         <img src="#" alt="2pizza" class="header__logo">
       </a>
       <a class="header__link header__cart-link" href="#" aria-label="Shopping cart">
+        <svg class="header__cart-link--image">
+          <use xlink:href="img/sprite.svg#shopping-cart"></use>
+        </svg>
         <span class="header__cart-link--sum">5 $</span>
         <span class="header__cart-link--counter">3</span>
       </a>
@@ -59,19 +60,39 @@
       <h2 class="visually-hidden">Our mennu</h2>
       <ul class="menu__list list-reset flex">
         <li class="menu__item">
-          <a class="menu__link" href="#">Pizza</a>
+          <a class="menu__link flex" href="#">
+            <svg class="menu__item--image">
+              <use xlink:href="img/sprite.svg#pizza"></use>
+            </svg>
+            <p class="menu__item--name">Pizza</p>
+          </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">Pasta</a>
+          <a class="menu__link flex" href="#">
+            <svg class="menu__item--image">
+              <use xlink:href="img/sprite.svg#pasta"></use>
+            </svg>
+            <p class="menu__item--name">Pasta</p>
+          </a>
         </li>
-        <li class="menu__item">
+        <!-- <li class="menu__item">
           <a class="menu__link" href="#">Salads</a>
+        </li> -->
+        <li class="menu__item">
+          <a class="menu__link flex" href="#">
+            <svg class="menu__item--image">
+              <use xlink:href="img/sprite.svg#snacks"></use>
+            </svg>
+            <p class="menu__item--name">Snacks</p>
+          </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">Snacks</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Drinks</a>
+          <a class="menu__link flex" href="#">
+            <svg class="menu__item--image">
+              <use xlink:href="img/sprite.svg#drinks"></use>
+            </svg>
+            <p class="menu__item--name">Drinks</p>
+          </a>
         </li>
       </ul>
     </section>
@@ -278,7 +299,9 @@
           Advantages
         </h2>
         <div class="advantages__item advantages-block flex">
-          image
+          <svg class="advantages-block__image">
+            <use xlink:href="img/sprite.svg#quality-foods"></use>
+          </svg>
           <h3 class="advantages-block__heading">
             Quality foods
           </h3>
@@ -289,7 +312,9 @@
           </p>
         </div>
         <div class="advantages-block__item advantages-block flex">
-          image
+          <svg class="advantages-block__image">
+            <use xlink:href="img/sprite.svg#best-taste"></use>
+          </svg>
           <h3 class="advantages-block__heading">
             Best taste
           </h3>
@@ -300,7 +325,9 @@
           </p>
         </div>
         <div class="advantages-block__item advantages-block flex">
-          image
+          <svg class="advantages-block__image">
+            <use xlink:href="img/sprite.svg#fast-delivery"></use>
+          </svg>
           <h3 class="advantages-block__heading">
             Fast delivery
           </h3>
@@ -434,7 +461,6 @@
     </section>
     <!-- tasty -->
     <section class="section tasty flex" id="tasty">
-      <!-- <div class="container tasty__container flex"> -->
       <picture class="tasty__pic">
         <img class="tasty__img" src="img/pizza-image-one.jpg" alt="Tasty picture">
       </picture>
@@ -459,12 +485,11 @@
       <picture class="tasty__pic">
         <img class="tasty__img" src="img/pizza-image-eight.jpg" alt="Tasty picture">
       </picture>
-      <!-- </div> -->
     </section>
   </main>
   <!-- Подвал -->
   <footer class="footer flex">
-    <!-- <div class="container footer__container"> -->
+
     <a class="footer__link footer__logo--link" href="#" aria-label="Homepage">
       <img src="#" alt="2pizza" class="logo footer__logo">
     </a>
@@ -475,22 +500,27 @@
       <ul class="socials list-reset flex">
         <li class="socials__item">
           <a class="socials__link" href="#" aria-label="Facebook">
-            Facebook
+            <svg class="socials__image">
+              <use xlink:href="img/sprite.svg#facebook"></use>
+            </svg>
           </a>
         </li>
         <li class="socials__item">
           <a class="socials__link" href="#" aria-label="Instagram">
-            Instagram
+            <svg class="socials__image">
+              <use xlink:href="img/sprite.svg#instagram"></use>
+            </svg>
           </a>
         </li>
         <li class="socials__item">
           <a class="socials__link" href="#" aria-label="WhatsApp">
-            WhatsApp
+            <svg class="socials__image">
+              <use xlink:href="img/sprite.svg#whatsapp"></use>
+            </svg>
           </a>
         </li>
       </ul>
     </div>
-    <!-- </div> -->
   </footer>
   <script src="js/tabs.js"></script>
 </body>

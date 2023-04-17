@@ -24,32 +24,14 @@
 }
 
 .header__phone-link {
-  padding-left: 30px;
-  padding-bottom: 3px;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
-
 .header__phone-image {
-  /* fill: #fff; */
-  stroke: #fff;
+  margin-top: 4px;
+  margin-right: 5px;
 }
-
-/* .header__phone-image path {
-  fill: #fff;
-  stroke: #fff;
-} */
-
-/* .header__phone-link::before {
-  position: absolute;
-  top: 30px;
-  left: 40px;
-  width: 24px;
-  height: 24px;
-  background-image: url("../img/icon-phone.png");
-  content: "";
-} */
 
 .header__logo {
   padding-right: 123px;
@@ -58,9 +40,12 @@
 
 .header__cart-link {
   position: relative;
-  width: 30px;
-  height: 30px;
-  background-image: url("../img/icon-cart.png");
+  
+}
+
+.header__cart-link--image {
+  width: 24px;
+  height: 24px;
 }
 
 .header__cart-link--sum {
@@ -74,7 +59,8 @@
 
 .header__cart-link--counter {
   position: absolute;
-  left: -8px;
+  right: -8px;
+  top: -4px;
   width: 15px;
   height: 15px;
   padding-top: 3px;
@@ -107,10 +93,19 @@
   justify-content: center;
 }
 
+.menu__item--image {
+  width: 24px;
+  height: 24px;
+}
+
 .menu__link {
   padding: 1rem;
   font-size: 1.6rem;
   color: var(--black);
+}
+
+.menu__item--name {
+  padding-top: 5px;
 }
 
 /* Pizza */
@@ -245,6 +240,13 @@
   max-width: 20%;
 }
 
+.advantages-block__image {
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+}
+
 .advantages-block__heading {
   padding-bottom: 1.5rem;
   font-size: 1.8rem;
@@ -361,4 +363,13 @@
   justify-content: space-between;
   padding: 3rem;
   background-color: var(--black);
+}
+
+.socials {
+  gap: 10px;
+}
+
+.socials__image {
+  width: 24px;
+  height: 24px;
 }
