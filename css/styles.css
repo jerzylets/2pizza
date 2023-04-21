@@ -365,11 +365,22 @@
   background-color: var(--black);
 }
 
+.footer__link--mobile-image {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__link--mobile-text {
+  align-self: center;
+  font-size: 1.4rem;
+}
+
 .socials {
   gap: 10px;
 }
 
 .socials__image {
+  margin: auto;
   width: 24px;
   height: 24px;
 }
